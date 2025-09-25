@@ -80,7 +80,7 @@ export default function Home() {
       // Fallback to Delhi, India
       setUserLocation({ latitude: 28.6139, longitude: 77.2090 })
     }
-  }, [])
+  }, []) 
 
   // Fetch real Panchang data when date or location changes
   useEffect(() => {
