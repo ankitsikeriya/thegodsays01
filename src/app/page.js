@@ -103,7 +103,7 @@ export default function Home() {
         // "YYYY-MM-DD HH:MM:SS" format
         date = new Date(timeString)
       } else {
-        // Just time format "HH:MM:SS"
+        // Just time format "HH:MM:SS"  
         const today = new Date(selectedDate)
         const [hours, minutes, seconds] = timeString.split(':')
         date = new Date(today.getFullYear(), today.getMonth(), today.getDate(), 
