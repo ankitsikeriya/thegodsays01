@@ -26,7 +26,7 @@ export default function Home() {
   // Astrology options state
   const [selectedOption, setSelectedOption] = useState(null)
   const [astrologyResult, setAstrologyResult] = useState(null)
-  const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)  
   const [error, setError] = useState(null)
 
   const astrologyOptions = [
