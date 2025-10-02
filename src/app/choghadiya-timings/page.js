@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Navigation from '@/components/Navigation'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'  
 import { Button } from '@/components/ui/button'
 import { Download, Share, RefreshCw, MapPin, Calendar, Zap, Star } from 'lucide-react'
  
