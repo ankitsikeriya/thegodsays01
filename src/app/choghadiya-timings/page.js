@@ -5,7 +5,7 @@ import Navigation from '@/components/Navigation'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Download, Share, RefreshCw, MapPin, Calendar, Zap, Star } from 'lucide-react'
-
+ 
 export default function ChoghadiyaTimingsPage() {
   const [choghadiyaData, setChoghadiyaData] = useState(null)
   const [isLoading, setIsLoading] = useState(false)
