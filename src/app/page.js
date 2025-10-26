@@ -49,7 +49,7 @@ export default function Home() {
     { id: 'gulika-kalam', name: 'Gulika Kalam', description: 'Gulika\'s time period' },
     { id: 'dur-muhurat', name: 'Dur Muhurat', description: 'Inauspicious muhurat' },
     { id: 'varjyam', name: 'Varjyam', description: 'Forbidden time periods' },
-    { id: 'good-bad-times', name: 'Good & Bad Times', description: 'Overall auspiciousness' }
+    { id: 'good-bad-times', name: 'Good & Bad Times', description: 'Overall auspiciousness'  }
   ]
 
   useEffect(() => {
