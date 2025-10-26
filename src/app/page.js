@@ -54,7 +54,7 @@ export default function Home() {
 
   useEffect(() => {
     const today = new Date()
-    const formattedDate = today.toLocaleDateString('en-US', {
+    const formattedDate = today.toLocaleDateString('en-US',  {
       day: 'numeric',
       month: 'short',
       year: 'numeric'
