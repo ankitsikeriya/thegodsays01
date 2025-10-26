@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Navigation from '@/components/Navigation'
-import PanchangCard from '@/components/PanchangCard'
+import PanchangCard from '@/components/PanchangCard'  
 import TimingsSection from '@/components/TimingsSection'
 import FestivalCard from '@/components/FestivalCard'
 import HoraTimeline from '@/components/HoraTimeline'  
