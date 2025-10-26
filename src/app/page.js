@@ -27,7 +27,7 @@ export default function Home() {
   const [selectedOption, setSelectedOption] = useState(null)
   const [astrologyResult, setAstrologyResult] = useState(null)
   const [isLoading, setIsLoading] = useState(false)  
-  const [error, setError] = useState(null)
+  const [error, setError] = useState(null)  
 
   const astrologyOptions = [
     { id: 'tithi-timings', name: 'Tithi Timings', description: 'Lunar day timings and details' },
